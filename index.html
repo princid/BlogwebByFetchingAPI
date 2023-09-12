@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Gallery Web</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@900&family=Montserrat&family=Nunito+Sans:opsz@6..12&family=Open+Sans&family=Playfair+Display:wght@700&family=Poppins:ital,wght@0,400;1,500&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- overall div -->
+    <section class="main_container">
+      <div class="heading">
+        <h1>AJAX PAGINATION</h1>
+      </div>
+
+      <!-- https://icons8.com/preloaders/ -->
+
+      <div id="preloader">
+        <img src="assets/Iphone-spinner-2.gif" alt="Loading spinner">
+      </div>
+
+      <div id="error-message">
+        <!-- Error message content will be placed here -->
+      </div>
+
+      <div id="gall_body" class="gall_body">
+
+        <!-- 1st 6 -->
+        <!-- <div class="gallery_card">
+          
+            <img src="" alt="natural scene" class="image" />
+          
+          
+        </div>
+
+        <div class="gallery_card">
+          
+            <img src="" alt="natural scene" class="image" />
+          
+          
+        </div>
+
+        <div class="gallery_card">
+          
+            <img src="" alt="natural scene" class="image" />
+          
+          
+        </div>
+
+        <div class="gallery_card">
+          
+            <img src="" alt="natural scene" class="image" />
+          
+          
+        </div>
+
+        <div class="gallery_card">
+          
+            <img src="" alt="natural scene" class="image" />
+          
+          
+        </div>
+
+        <div class="gallery_card">
+          
+            <img src="" alt="natural scene" class="image" />
+          
+          
+        </div> -->
+        
+
+      </div>
+
+
+      <!-- Adding Pagination Section Here -->
+      <div id="pagination" class="pagination">
+        <ul class="pageNoInline">
+          <li><button id="prevBtn" class="leftArrow"><i class="fa-solid fa-circle-left" style="color: #ffffff;"></i></button></li>
+
+          <li><a id="page1" class="pageNum">1</a></li>
+
+          <li><a id="page2" class="pageNum">2</a></li>
+
+          <li><a id="page3" class="pageNum">3</a></li>
+
+          <li><a id="page4" class="pageNum">4</a></li>
+
+          <li><a id="page5" class="pageNum">5</a></li>
+
+          <li><button id="nextBtn" class="rightArrow"><i class="fa-solid fa-circle-left fa-flip-horizontal" style="color: #ffffff;"></i></button></li>
+        </ul>
+      </div>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>
